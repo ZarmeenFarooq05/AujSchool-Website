@@ -1,0 +1,191 @@
+
+<!-- form drrop list incorrect one -->
+<!-- 
+                        <input type="radio" id="mont" name="class" value="mont">
+                    <label for="html">Montessori</label><br>
+                    <input type="radio" id="nur" name="class" value="nur">
+                    <label for="css">Nursery</label><br>
+                    <input type="radio" id="kg1" name="class" value="kg1">
+                    <label for="javascript">KG-I</label>
+                    <input type="radio" id="kg2" name="class" value="kg2">
+                    <label for="javascript">KG-II</label>
+                    
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,400;0,500;1,100;1,200;1,300;1,400&display=swap" rel="stylesheet">
+
+
+    <!-- font awesome cdn link -->
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,100;1,200;1,300;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- lightgallery css cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body class="adbody">
+    <header class="header">
+        <a href="index.html" class="logo"><i class="fas fa-school"> AUJ</i></a>
+        <nav class="navbar">
+            <a href="index.html">HOME</a>
+            <a href="about.html">ABOUT</a>
+            <a href="education.html">EDUCATION</a>
+            <a href="team.html">TEACHER</a>
+            <a href="#gallery">GALLERY</a>
+            <a href="">ADMISSION</a>
+            <a href="#contact">CONTACT</a>
+        </nav>
+        <div class="icons">
+            <div class="fas fa-user" id="login-btn"></div>
+            <div class="fas fa-bars" id="menu-btn"></div>
+        </div>
+        <form action="" class="login">
+            <h3>Login Now</h3>
+            <input type="email" placeholder="Enter Your Email" class="box" required>
+            <input type="password" placeholder="Enter Your Password" class="box" required>
+            <p>Forgot Password? <a href="">Click Here</a></p>
+            <input type="submit" value="login now" class="btn">
+        </form>
+       
+
+    </header>
+    <section class="ad">
+        <div class="adcontainer">
+            <div class="title">Admission Form</div>
+    
+            <form action="">
+                <div class="userdetail">
+    
+                    <div class="inputbox">
+                        <span class="detail">Student's Name</span>
+                        <input type="text" placeholder="Enter Your Name" required>
+                    </div>
+    
+                    <div class="inputbox">
+                        <span class="detail">Date Of Birth</span>
+                        <input type="text" placeholder="Enter Your Name" required>
+                    </div>
+    
+                    <div class="inputbox">
+                        <span class="detail">Class:</span>
+                        <!-- <input type="text" placeholder="Enter Your Name" required> -->
+                        <select name="class" id="class">
+                            <option value="mont">Montessori</option>
+                            <option value="nur">Nursery</option>
+                            <option value="kg1">KG-I</option>
+                            <option value="kg2">KG-II</option>
+                            <option value="1st">1st</option>
+                            <option value="2nd">2nd</option>
+                            <option value="3rd">3rd</option>
+                            <option value="4th">4th</option>
+                            <option value="">5th</option>
+                            </select>
+                    </div>
+    
+                    <div class="inputbox">
+                        <span class="detail">Previous School</span>
+                        <input type="text" placeholder="Enter Here">
+                    </div>
+    
+                    <div class="inputbox">
+                        <span class="detail">Previous School Result</span>
+                        <input type="text" placeholder="Annual Examination Result">
+                    </div>
+    
+                    <div class="inputbox">
+                        <span class="detail">Parent/Guardian's Name</span>
+                        <input type="text" placeholder="Enter Here" required>
+                    </div>
+    
+                    <div class="inputbox">
+                        <span class="detail">Phone</span>
+                        <input type="text" placeholder="###-####-####" required>
+                    </div>
+    
+                    <div class="inputbox">
+                        <span class="detail">Email</span>
+                        <input type="text" placeholder="Enter Here" required>
+                    </div>
+    
+                    <div class="inputbox">
+                        <span class="detail">Email</span>
+                        <input type="text" placeholder="Enter Here" required>
+                    </div>
+    
+                    <div class="inputbox">
+                        <span class="detail">Permanent Address</span>
+                        <textarea name="" id="tarea" cols="30" rows="10" placeholder="Enter Address"></textarea>
+                    </div>
+    
+                </div>
+    
+                <div class="button">
+                    <input type="submit" value="submit">
+                </div>
+            </form>
+        </div>
+        </section>
+
+
+
+
+    <!-- Footer -->
+    <section class="footer" id="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3><i class="fas fa-school"></i> Auj-E-Surayya</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum, necessitatibus!</p>
+            </div>
+            
+            <div class="box">
+                <h3>Quick Links</h3>
+                <a href=""><i class="fas fa-caret-right"></i>Enroll Now</a>
+                <a href=""><i class="fas fa-caret-right"></i>Parent Portal</a>
+                <a href=""><i class="fas fa-caret-right"></i>School Calender</a>
+                <a href=""><i class="fas fa-caret-right"></i>Lunch Menu</a>
+                <a href=""><i class="fas fa-caret-right"></i>School Supply List</a>
+            </div>
+
+            <div class="box">
+                <h3>Category</h3>
+                <a href=""><i class="fas fa-caret-right"></i>About Us</a>
+                <a href=""><i class="fas fa-caret-right"></i>Academics</a>
+                <a href=""><i class="fas fa-caret-right"></i>Admission</a>
+                <a href=""><i class="fas fa-caret-right"></i>News and Events</a>
+                <a href=""><i class="fas fa-caret-right"></i>Contact Us</a>
+            </div>
+            
+
+            <div class="box">
+                <h3>Extra Links</h3>
+                <a href=""><i class="fas fa-caret-right"></i>Privacy Policy</a>
+                <a href=""><i class="fas fa-caret-right"></i>Terms Of Use</a>
+                <a href=""><i class="fas fa-caret-right"></i>Site Map</a>
+                <a href=""><i class="fas fa-caret-right"></i>FAQs</a>
+                <a href=""><i class="fas fa-caret-right"></i>Accessibility Statement</a>
+            </div>
+
+        </div>
+
+        <div class="credit">&copy; copyright @ 2024 by <span>Auj-E-Surayya</span></div>
+
+    </section>
+    <!-- Footer End -->
+
+</body>
+</html>
